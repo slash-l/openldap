@@ -1,0 +1,19 @@
+dn: dc=demo,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: ldap测试组织
+dc: demo
+
+dn: cn=Manager,dc=demo,dc=com
+objectClass: organizationalRole
+cn: Manager
+description: 组织管理人
+
+dn: ou=People,dc=demo,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=demo,dc=com
+objectClass: organizationalUnit
+ou: Group

@@ -1,0 +1,5 @@
+dn: cn=ryan.miao,ou=后台组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: modify
+replace: userPassword
+userPassword: 123456
+

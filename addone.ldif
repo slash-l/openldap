@@ -1,0 +1,11 @@
+dn: cn=slash,ou=后台组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: inetOrgPerson
+cn: slash
+userPassword: 123456
+departmentNumber: 3
+sn: slash
+title: 售前架构师
+mail: slash@demo.com
+uid: 10004
+displayName: 我是售前架构师

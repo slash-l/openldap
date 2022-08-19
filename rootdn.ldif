@@ -1,0 +1,10 @@
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+replace: olcRootDN
+olcRootDN: cn=admin,dc=demo,dc=com
+-
+replace: olcSuffix
+olcSuffix: dc=demo,dc=com
+-
+replace: olcRootPW
+olcRootPW: <pass>

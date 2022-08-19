@@ -1,0 +1,66 @@
+dn: ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: organizationalUnit
+ou: 研发部门
+
+dn: ou=后台组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: organizationalUnit
+ou: 后台组
+
+
+dn: cn=ryan.miao,ou=后台组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: inetOrgPerson
+cn: stark
+departmentNumber: 1
+sn: iron.man
+title: 大牛
+mail: ryan.miao@demo.com
+uid: 10000
+displayName: 钢铁侠
+
+dn: cn=hulk,ou=后台组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: inetOrgPerson
+cn: hulk
+departmentNumber: 1
+sn: hulk
+title: Java工程师
+mail: someone@demo.com
+uid: 10001
+displayName: 浩克
+
+
+dn: ou=测试组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: organizationalUnit
+ou: 测试组
+
+dn: cn=tester.miao,ou=测试组,ou=研发部门,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: inetOrgPerson
+cn: Captain.America
+departmentNumber: 2
+sn: Steven.Rogers
+title: 测试工程师
+mail: tester@demo.com
+uid: 10002
+displayName: 美国队长
+
+
+dn: ou=HR,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: organizationalUnit
+ou: HR
+
+dn: cn=fang.huang,ou=HR,ou=People,dc=demo,dc=com
+changetype: add
+objectClass: inetOrgPerson
+cn: Nick.Fury
+departmentNumber: 3
+sn: Nick
+title: HRBP
+mail: fang.huang@demo.com
+uid: 10003
+displayName: 神盾局局长
